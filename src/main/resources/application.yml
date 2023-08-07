@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: zerobase-table
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+      use-new-id-generator-mappings: false
+    show-sql: true
+    defer-datasource-initialization: true
+
+  jwt:
+    secret: ZGF5b25lLXNwcmluZy1ib290LWRpdmlkZW5kLXByb2plY3QtdHV0b3JpYWwtand0LXNlY3JldC1rZXkK
+
+  datasource:
+    url: jdbc:mariadb://localhost:3306/tableproject
+    username: root
+    password: qwerasdfzxcv123
+    driver-class-name: org.mariadb.jdbc.Driver
+
+
